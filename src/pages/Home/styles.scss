@@ -1,0 +1,44 @@
+.home {
+    padding: 50px;
+    margin-bottom: 100px;
+    // background-color: #3a83f6;
+  
+    .table-container {
+  
+      .filter-container {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        align-items: center;
+  
+        .search-bar-filter {
+          margin-right: 12px;
+  
+          .MuiPaper-root {
+            width: auto;
+          }
+        }
+  
+        .select-filter {
+          background-color: white;
+          border-radius: 8px;
+  
+          .MuiFormControl-root {
+            min-width: 100px;
+          }
+        }
+  
+        .reset-filter {
+          background: white;
+          border-radius: 5px;
+          margin-left: 12px;
+        }
+      }
+    }
+  
+    .table-pagination {
+      margin-top: 70px;
+      float: right;
+    }
+  }
