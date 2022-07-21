@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ajaib-frontend" element={<Home />} />
           {/* <Route component={NotFound} /> */}
       </Routes>
     </BrowserRouter>
